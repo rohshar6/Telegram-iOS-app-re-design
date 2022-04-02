@@ -19,6 +19,7 @@
 		29383EF227F8C68A00DF7803 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29383EF127F8C68A00DF7803 /* LoginViewController.swift */; };
 		29383EF427F8C69C00DF7803 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29383EF327F8C69C00DF7803 /* RegisterViewController.swift */; };
 		29383EF927F8C83C00DF7803 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29383EF827F8C83C00DF7803 /* ViewControllerFactory.swift */; };
+		29383EFB27F8CEC600DF7803 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29383EFA27F8CEC600DF7803 /* UITextField+Extensions.swift */; };
 		561550F8CFDFE24C420D6B44 /* Pods_iOS_chat_application_iOS_chat_applicationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC77BF1795294BEB40F8CBA7 /* Pods_iOS_chat_application_iOS_chat_applicationUITests.framework */; };
 		70B0BF00F3064421965EF2D5 /* Pods_iOS_chat_applicationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB3899C695A84FDC99A8B9A /* Pods_iOS_chat_applicationTests.framework */; };
 		AC5C9138B5D53875B0D86EA1 /* Pods_iOS_chat_application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD85967624F431E4286B7AD /* Pods_iOS_chat_application.framework */; };
@@ -59,6 +60,7 @@
 		29383EF127F8C68A00DF7803 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		29383EF327F8C69C00DF7803 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		29383EF827F8C83C00DF7803 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		29383EFA27F8CEC600DF7803 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		4011030088DE87F4EBD9290B /* Pods-iOS chat application-iOS chat applicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS chat application-iOS chat applicationUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS chat application-iOS chat applicationUITests/Pods-iOS chat application-iOS chat applicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4FB3899C695A84FDC99A8B9A /* Pods_iOS_chat_applicationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_chat_applicationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		634884E49D1AA6A7AF5587AA /* Pods-iOS chat application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS chat application.release.xcconfig"; path = "Target Support Files/Pods-iOS chat application/Pods-iOS chat application.release.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 			children = (
 				29383EED27F8BD4300DF7803 /* Constants.swift */,
 				29383EEF27F8BF1000DF7803 /* UIColor+Extensions.swift */,
+				29383EFA27F8CEC600DF7803 /* UITextField+Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 				29383EF027F8BF1000DF7803 /* UIColor+Extensions.swift in Sources */,
 				29383E7E27F8B02000DF7803 /* AppDelegate.swift in Sources */,
 				29383EF927F8C83C00DF7803 /* ViewControllerFactory.swift in Sources */,
+				29383EFB27F8CEC600DF7803 /* UITextField+Extensions.swift in Sources */,
 				29383E8027F8B02000DF7803 /* SceneDelegate.swift in Sources */,
 				29383EEE27F8BD4300DF7803 /* Constants.swift in Sources */,
 			);
